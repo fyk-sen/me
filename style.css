@@ -310,7 +310,7 @@ section:nth-of-type(3) {
     z-index: 5;
 
     column-gap: 1vmin;
-    opacity: 0;
+    opacity: 0.15;
 
     transition: opacity 500ms ease;
 }
