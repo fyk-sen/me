@@ -236,7 +236,6 @@ section:nth-of-type(2) h1 {
 }
 
 #track {
-    overflow-x: hidden;
     display: flex;
     gap: 5vmin;
     position: absolute;
