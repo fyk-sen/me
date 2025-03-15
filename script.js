@@ -1,5 +1,11 @@
+window.onbeforeunload = e => {
+    window.scrollTo(0,0);
+}
+
+
 const fox = document.getElementById("fox");
 const track = document.getElementById("track");
+
 
 window.onmousemove = e => {
 
@@ -46,10 +52,12 @@ window.onmousemove = e => {
 
 }
 
+
 window.onmouseup = () => {
     track.dataset.mouseDownAt = "0";
     track.dataset.previousPercent = track.dataset.percent;
 }
+
 
 window.onmousedown = e => {
     track.dataset.mouseDownAt = e.clientX;
